@@ -1,11 +1,13 @@
-int main()
+#include <stdio.h>
+#include "fib.h" 
+int main()                   
 {
     int X;
 
     printf("Enter X: ");
     scanf_s("%d", &X);
 
-    while (X <= 0) {
+    while (X <= 0) {          
 
         printf("Incorrect number, enter  module int type: ");
         scanf_s("%d", &X);
